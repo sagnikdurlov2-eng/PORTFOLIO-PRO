@@ -4,8 +4,13 @@ import {Mail,ArrowUpRight,Download,Code2,Database,Globe,Menu,X,ExternalLink,MapP
 import './styles.css';
 
 const profile={name:'Swastika Mitra',email:'swastikamitra55@gmail.com',github:'https://github.com/swastikamitra05-coder',linkedin:'https://www.linkedin.com/in/swastika-mitra-768b2836a'};
-const heroPortrait='/profile.jpg?v=swastika-portrait-2026-09-13';
-const resumeUrl='/resume.svg';
+const heroPortrait='/swastika-portrait-final.jpg?cache=2026-09-14-1';
+const resumeUrl='/resume.pdf';
+const highlightStats=[
+ {label:'Available for',value:'Internships'},
+ {label:'Focus',value:'Frontend + Full-stack'},
+ {label:'Location',value:'Kolkata'}
+];
 const projects=[
  {title:'News Search App',desc:'A web application for searching and exploring news content through a clean, focused interface.',tags:['HTML','CSS','JavaScript'],link:'https://github.com/swastikamitra05-coder/news-search-app'},
  {title:'Card Guess',desc:'A lightweight interactive card-guessing project demonstrating frontend logic, interaction and user-focused UI.',tags:['HTML','CSS','JavaScript','Solidity'],link:'https://github.com/swastikamitra05-coder/Card-Guess'}
@@ -21,7 +26,7 @@ function App(){
  return <div className="site">
   <header className="nav"><div className="nav-inner"><button className="brand" onClick={()=>go('home')}><span className="brand-mark"><BookIcon size={22}/></span><span>Swastika's Portfolio<span className="dot">.</span></span></button>
    <nav className={open?'nav-links open':'nav-links'}>{nav.map(n=><button key={n} onClick={()=>go(n)}>{n}</button>)}</nav>
-   <div className="nav-actions"><button className="showcase-btn" aria-label="Open quick portfolio view" onClick={()=>setShowcaseOpen(!showcaseOpen)}><Eye size={16}/> Quick View</button><a className="resume-btn" href={resumeUrl} download="Swastika-Mitra-Resume.svg"><Download size={16}/> Resume</a><button className="menu" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div>
+   <div className="nav-actions"><button className="showcase-btn" aria-label="Open quick portfolio view" onClick={()=>setShowcaseOpen(!showcaseOpen)}><Eye size={16}/> Quick View</button><a className="resume-btn" href={resumeUrl} target="_blank" rel="noopener noreferrer" download="Swastika-Mitra-Resume.pdf"><Download size={16}/> Resume</a><button className="menu" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div>
   </div></header>
   <div className={showcaseOpen?'showcase-panel open':'showcase-panel'}>
    <div className="showcase-head"><span>Portfolio snapshot</span><button onClick={()=>setShowcaseOpen(false)}>Close</button></div>
@@ -39,6 +44,7 @@ function App(){
      <h1>Hello, I’m <span>Swastika Mitra.</span></h1><h2>B.Tech IT Student <i>·</i> Software & Full-Stack Developer</h2>
      <p>I build practical web experiences with <b>Python, Django, JavaScript and React</b>, and I enjoy turning ideas into clean, useful products.</p>
      <div className="hero-ctas"><button className="primary" onClick={()=>go('projects')}>View Projects <ArrowUpRight size={18}/></button><button className="secondary" onClick={()=>go('contact')}>Contact Me</button></div>
+     <div className="quick-highlights">{highlightStats.map(item=><div className="highlight-item" key={item.label}><span>{item.label}</span><strong>{item.value}</strong></div>)}</div>
      <div className="socials"><a href={profile.github} target="_blank"><Globe size={19}/> GitHub</a><a href={profile.linkedin} target="_blank"><Globe size={19}/> LinkedIn</a><a href={'mailto:'+profile.email}><Mail size={19}/> Email</a></div>
     </div>
     <div className="hero-card"><div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="avatar"><img src={heroPortrait} alt="Swastika Mitra portrait" /></div><div className="float-card fc1"><Code2 size={17}/><div><b>Full-Stack</b><small>Development</small></div></div><div className="float-card fc2"><PenIcon size={17}/><div><b>8.2 CGPA</b><small>B.Tech IT · 2028</small></div></div><div className="hero-card-caption"><MapPin size={15}/> Kolkata, India</div></div>
@@ -67,7 +73,7 @@ function App(){
 
    <section id="contact" className="section contact"><div className="contact-panel"><div><p className="kicker"> · Contact</p><h2>Let’s build something<br/><em>worth talking about.</em></h2><p>For internship opportunities, collaborations or project discussions, feel free to reach out.</p></div><div className="contact-actions"><a className="primary" href={'mailto:'+profile.email}><Mail size={18}/> Email Swastika</a><a className="secondary" href={profile.linkedin} target="_blank"><Globe size={18}/> LinkedIn</a><a className="secondary" href={profile.github} target="_blank"><Globe size={18}/> GitHub</a></div></div></section>
   </main>
-  <footer className="site-footer"><div className="footer-main"><div><span className="brand-mark small"><BookIcon size={18}/></span><span>Swastika Mitra</span></div><span className="footer-tagline">Better code. Brighter future.</span><div className="footer-links"><a href={profile.github} target="_blank"><Globe/></a><a href={profile.linkedin} target="_blank"><Globe/></a><a href={'mailto:'+profile.email}><Mail/></a></div></div><div className="footer-meta"><span>Open to internships & collaborations</span><span>Built with React & curiosity</span></div></footer>
+  <footer className="site-footer"><div className="footer-main"><div><span className="brand-mark small"><BookIcon size={18}/></span><span>Swastika Mitra</span></div><span className="footer-tagline">Better code. Brighter future.</span><div className="footer-links"><a href={profile.github} target="_blank"><Globe/></a><a href={profile.linkedin} target="_blank"><Globe/></a><a href={'mailto:'+profile.email}><Mail/></a></div></div><div className="footer-meta"><span>Open to internships & collaborations</span><span>Built by Swastika</span></div></footer>
  </div>
 }
 createRoot(document.getElementById('root')).render(<App/>);
