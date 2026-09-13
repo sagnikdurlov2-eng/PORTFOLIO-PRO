@@ -1,29 +1,111 @@
 # Swastika Mitra Portfolio
 
-A recruiter-focused, responsive portfolio built with React + Vite + CSS.
+A modern personal portfolio website built with React and Vite. It showcases Swastika Mitra’s academic background, technical skills, projects, achievements, certifications, and contact information in a clean, recruiter-friendly layout.
 
-## Run locally
+## Overview
+
+This portfolio is designed to:
+
+- present a strong first impression for employers and recruiters
+- highlight technical abilities and project work
+- make contact, GitHub, and LinkedIn access easy
+- provide a polished single-page experience for mobile and desktop
+
+## Features
+
+- Responsive layout for all screen sizes
+- Dark professional theme with modern UI styling
+- Smooth navigation between sections
+- Hero section with profile image and quick intro
+- Projects section with links to GitHub repositories
+- Certifications, achievements, and experience timeline
+- Contact section with email and social links
+- Downloadable resume button
+- Quick View panel for a portfolio snapshot
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React icons
+
+## Project Structure
+
+```bash
+swastika-portfolio/
+├── public/
+│   ├── profile.jpg
+│   └── resume.svg
+├── src/
+│   ├── main.jsx
+│   └── styles.css
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
+```
+
+## Getting Started
+
+1. Install dependencies:
 
 ```bash
 npm install
+```
+
+2. Start the development server:
+
+```bash
 npm run dev
 ```
 
-Then open the local Vite URL shown in the terminal.
+3. Open the local URL shown in the terminal in your browser.
 
-## Build for deployment
+## Production Build
+
+To generate the optimized production build:
 
 ```bash
 npm run build
 ```
 
-The production files are generated in `dist/` and can be deployed to Vercel, Netlify, GitHub Pages (with configuration), or another static host.
+The output will be created in the `dist/` folder.
 
-## Before publishing
+## Deployment
 
-- Replace the generated initials avatar with Swastika's real professional photo only if she wants one.
-- Add the verified certification list.
-- Update EduSkill details with the exact internship title, dates, and work completed.
-- Add exact project descriptions/tech stacks after confirming them from the repositories.
-- Add a real resume PDF and wire the Resume button to it.
-- Consider keeping her phone number private; email and LinkedIn are enough for a public portfolio.
+This project can be deployed to any static hosting platform, including:
+
+- Vercel
+- Netlify
+- GitHub Pages
+- Firebase Hosting
+
+For most setups, the deployment command is simply:
+
+```bash
+npm run build
+```
+
+Then publish the contents of the `dist/` folder.
+
+## Customization Notes
+
+Before publishing publicly, consider updating:
+
+- the profile photo in `public/profile.jpg`
+- the resume file in `public/resume.svg` or replace it with a real PDF
+- GitHub, LinkedIn, and email links in `src/main.jsx`
+- project details and certification entries to match real achievements
+- any personal information you do not want visible publicly
+
+## License
+
+This project is for personal portfolio use. If you plan to reuse or share it publicly, make sure you have permission for all personal content, images, and links included in the site.
+
+## Author
+
+Swastika Mitra
+
