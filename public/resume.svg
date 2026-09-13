@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Swastika Mitra Resume</title>
+  <desc id="desc">Resume preview for Swastika Mitra</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#171f33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8b7cff"/>
+      <stop offset="100%" stop-color="#5ad1ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect x="80" y="90" width="1040" height="1420" rx="28" fill="#101827" stroke="#2a3650"/>
+  <rect x="120" y="130" width="220" height="220" rx="24" fill="url(#accent)"/>
+  <circle cx="230" cy="210" r="62" fill="#f5f7ff" opacity="0.92"/>
+  <path d="M195 255c0-30 20-52 51-52s51 22 51 52v18h-102v-18z" fill="#101827" opacity="0.7"/>
+  <text x="390" y="205" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">SWASTIKA MITRA</text>
+  <text x="390" y="255" fill="#a7b1cc" font-family="Arial, Helvetica, sans-serif" font-size="30">B.Tech IT Student | Full-Stack Developer</text>
+  <text x="390" y="292" fill="#8ae0ff" font-family="Arial, Helvetica, sans-serif" font-size="24">Kolkata, India • swastikamitra55@gmail.com • GitHub / LinkedIn</text>
+
+  <rect x="120" y="400" width="330" height="6" rx="3" fill="url(#accent)"/>
+  <text x="120" y="465" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">PROFILE</text>
+  <text x="120" y="520" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">I am a technology-focused developer with a strong</text>
+  <text x="120" y="555" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">interest in software development, frontend building,</text>
+  <text x="120" y="590" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">and creating user-friendly digital experiences.</text>
+
+  <rect x="120" y="650" width="330" height="6" rx="3" fill="url(#accent)"/>
+  <text x="120" y="715" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">SKILLS</text>
+  <text x="120" y="770" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• Python</text>
+  <text x="120" y="810" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• JavaScript</text>
+  <text x="120" y="850" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• HTML / CSS</text>
+  <text x="120" y="890" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• React</text>
+  <text x="120" y="930" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• Django</text>
+  <text x="120" y="970" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="26">• Git / GitHub</text>
+
+  <rect x="620" y="400" width="440" height="6" rx="3" fill="url(#accent)"/>
+  <text x="620" y="465" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">EDUCATION</text>
+  <text x="620" y="520" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">B.Tech in Information Technology</text>
+  <text x="620" y="560" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">Narula Institute of Technology</text>
+  <text x="620" y="595" fill="#9bb0d8" font-family="Arial, Helvetica, sans-serif" font-size="22">2025 – 2028</text>
+
+  <rect x="620" y="650" width="440" height="6" rx="3" fill="url(#accent)"/>
+  <text x="620" y="715" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">EXPERIENCE</text>
+  <text x="620" y="770" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Student Internship / Learning Projects</text>
+  <text x="620" y="810" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">• Built practical web solutions with frontend and backend logic</text>
+  <text x="620" y="850" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">• Worked on collaborative student activities and technical events</text>
+  <text x="620" y="890" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">• Focused on clean UI, problem solving, and product thinking</text>
+
+  <rect x="120" y="1040" width="940" height="6" rx="3" fill="url(#accent)"/>
+  <text x="120" y="1105" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">PROJECTS</text>
+  <text x="120" y="1160" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">News Search App</text>
+  <text x="120" y="1195" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">Web app for finding and exploring news content through a focused UI.</text>
+  <text x="120" y="1245" fill="#f5f7ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Card Guess</text>
+  <text x="120" y="1280" fill="#d8def0" font-family="Arial, Helvetica, sans-serif" font-size="24">Interactive frontend project showing logic, usability and UI design.</text>
+
+  <text x="120" y="1455" fill="#8ae0ff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">AVAILABLE FOR INTERNSHIPS / COLLABORATIONS</text>
+</svg>
